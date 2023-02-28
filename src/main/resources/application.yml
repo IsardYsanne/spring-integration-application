@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/potato
+    username: postgres
+    password: pass
+    #initialization-mode: always
+
+logging:
+  level:
+    root: info
